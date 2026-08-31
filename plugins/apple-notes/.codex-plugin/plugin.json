@@ -1,0 +1,38 @@
+{
+  "name": "apple-notes",
+  "version": "0.1.0",
+  "description": "Read and safely manage native Apple Notes from Codex or ChatGPT.",
+  "author": {
+    "name": "Henry Van Ness"
+  },
+  "homepage": "https://github.com/henryvn27/apple-notes-mcp#readme",
+  "repository": "https://github.com/henryvn27/apple-notes-mcp",
+  "license": "MIT",
+  "keywords": [
+    "apple-notes",
+    "notes",
+    "mcp",
+    "macos",
+    "productivity"
+  ],
+  "interface": {
+    "displayName": "Apple Notes",
+    "shortDescription": "Your notes, in the conversation.",
+    "longDescription": "List Notes accounts and folders, search and inspect existing notes, and safely create, append, rename, move, replace, or delete one native Apple Note. Exact IDs protect mutations; shared and password-protected notes stay read-only.",
+    "developerName": "Henry Van Ness",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/henryvn27/apple-notes-mcp",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Find my notes about the launch.",
+      "Show the note I edited most recently.",
+      "Create a note called Project brief.",
+      "Append these decisions to my project brief."
+    ],
+    "brandColor": "#F5C842"
+  },
+  "mcpServers": "./.mcp.json"
+}

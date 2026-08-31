@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "apple-notes": {
+      "command": "/usr/bin/python3",
+      "args": [
+        "server.py"
+      ],
+      "cwd": "."
+    }
+  }
+}
